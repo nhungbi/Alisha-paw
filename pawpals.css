@@ -1,0 +1,38 @@
+h1 {
+    font-family: 'Joan', serif;
+    position: relative;
+    display: inline-block;
+    margin-top: 60px;
+}
+.headTwo {
+    margin-right: 35px;
+    
+}
+
+div {
+    height: 300px;
+    background-color: rgb(240, 181, 145);
+    margin: 30px;
+    text-align: center;
+}
+
+.imgOne, .imgTwo {
+    height: 100px;
+    width: auto;
+}
+
+.mini {
+    height: 30px;
+    position: absolute;
+    top: 20%;
+}
+
+
+
+/* .three {
+    background-image: url("https://static.thenounproject.com/noun-svg/76186.svg?Expires=1655924608&Signature=K7AEUnoFhTA~RFqR3giSlAUch8F1i2mfwu3g-cbix7IhbE6G7K5cFN75SKSbMvgxLbeHBK7YO338JGQbSGkSujxYQiRM69MZRQ2B7VrFUzrUxcZ1gDlM5cfhOHqnu4AZvFzK0SK5kBb3KnpxppJx8ovwQPBB03AKm5pshInoYew_&Key-Pair-Id=APKAI5ZVHAXN65CHVU2Q");
+    background-repeat: none;
+    background-size: cover;
+    background-color: transparent;
+    border: 3px black solid;
+} */
