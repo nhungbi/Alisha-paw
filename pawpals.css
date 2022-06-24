@@ -6,10 +6,6 @@ h1 {
     margin-right: 35px;
 }
 
-.main-heading {
-    font-family: 'Joan', serif;
-    margin: 0;
-}
 
 .three {
     height: 300px;
@@ -33,6 +29,7 @@ h1 {
     justify-content: center;
     text-align: center;
     align-items: center;
+    position: relative;
 }
 
 .main-image {
@@ -41,11 +38,39 @@ h1 {
     width: 25%;
 }
 
-.main-heading {
+.main-heading, .main-heading-two {
     color: white;
-    font-size: 30px;
+    font-size: 20px;
+    font-family: 'Joan', serif;
+    margin: 0;
+    position: absolute;
+    left: 6%;
+    bottom: 20%;
 }
 
+.main-heading-two {
+    left: 13%;
+    bottom: 20%;
+}
+
+span {
+    position: absolute;
+    left: 10%;
+    bottom: 20%;
+    color: white;
+}
+
+.mini-two {
+    height: 30px;
+    position: absolute;
+    left: 10%;
+    bottom: 20%;
+    fill:white;
+}
+
+.here {
+    background-color: rgb(240, 181, 145);
+}
 
 /* .three {
     background-image: url("https://static.thenounproject.com/noun-svg/76186.svg?Expires=1655924608&Signature=K7AEUnoFhTA~RFqR3giSlAUch8F1i2mfwu3g-cbix7IhbE6G7K5cFN75SKSbMvgxLbeHBK7YO338JGQbSGkSujxYQiRM69MZRQ2B7VrFUzrUxcZ1gDlM5cfhOHqnu4AZvFzK0SK5kBb3KnpxppJx8ovwQPBB03AKm5pshInoYew_&Key-Pair-Id=APKAI5ZVHAXN65CHVU2Q");
